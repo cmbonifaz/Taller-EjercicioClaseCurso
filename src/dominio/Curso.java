@@ -31,6 +31,7 @@ public class Curso {
     }
 
     public void setEstudiantesEncimaPromedio() {
+        //codigo duplicado en el anterior metodo
         int estudiantes = 0;
         double promedios = 0;
         for (int i = 0; i < 12; i++) {
